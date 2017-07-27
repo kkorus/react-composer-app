@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANW.ComposerApp", "ANW.ComposerApp\ANW.ComposerApp.csproj", "{267D8A05-C0A1-439A-AF67-2074D8BAB49E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANW.ComposerApp.Tests", "ANW.ComposerApp.Tests\ANW.ComposerApp.Tests.csproj", "{0FEC024F-6D41-481E-97B6-691D64CC7804}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{267D8A05-C0A1-439A-AF67-2074D8BAB49E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{267D8A05-C0A1-439A-AF67-2074D8BAB49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{267D8A05-C0A1-439A-AF67-2074D8BAB49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{267D8A05-C0A1-439A-AF67-2074D8BAB49E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FEC024F-6D41-481E-97B6-691D64CC7804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FEC024F-6D41-481E-97B6-691D64CC7804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FEC024F-6D41-481E-97B6-691D64CC7804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FEC024F-6D41-481E-97B6-691D64CC7804}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
