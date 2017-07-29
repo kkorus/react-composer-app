@@ -1,4 +1,3 @@
-#addin "Cake.WebDeploy"
 #addin "Cake.Yarn"
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -81,7 +80,7 @@ Task("Yarn-Install")
    Yarn.FromPath(sourceDir + "\\ANW.ComposerApp").Install();
 });
 
-Task("Yarn-RunScript")
+Task("Yarn-Run Build")
 	.Does(() =>
 	{
 		Yarn.FromPath(sourceDir + "\\ANW.ComposerApp").RunScript("build");
@@ -96,7 +95,7 @@ Task("Default")
     .IsDependentOn("Clean")
     .IsDependentOn("BuildBackend")
     .IsDependentOn("Yarn-Install")
-    .IsDependentOn("Yarn-RunScript")
+    .IsDependentOn("Yarn-Run Build")
 	.IsDependentOn("Run");
     
 ///////////////////////////////////////////////////////////////////////////////
